@@ -57,6 +57,8 @@ func main() {
 		log.Println("Connected to database!")
 	}
 
+	//random change lol
+
 	router := chi.NewRouter()
 
 	router.Use(cors.Handler(cors.Options{
